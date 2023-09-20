@@ -62,7 +62,7 @@ def extract_ne(quote:str):
         if (hasattr(t, "label") and t.label() == "NE") or (hasattr(t, "label") and t.label == "NNP")
     )
 
-
+print(extract_ne(text))
 
 
 
