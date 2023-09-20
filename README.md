@@ -5,6 +5,10 @@ Python Libraries:
     re
 
 
+Chatwork contains files used for scraping chats out of a file and recognizing the different parts with RegEx.
+
+Examples contains practice examples of various NLTK methods and practices that are going to be used in the analysis of the chats.
+
 Current approach:
 recognize named entities in chat
 create objects based on named entitis
