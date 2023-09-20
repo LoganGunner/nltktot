@@ -1,0 +1,285 @@
+ FRCBot [FRCBot!FRCBot@hide-4CF1CE16.members.linode.com] has joined #geeknights
+ test
+ FRCBot [FRCBot!FRCBot@hide-4CF1CE16.members.linode.com] has joined #geeknights
+ wee
+ Apreche changed topic of #geeknights to: GeekNights Podcast http://frontrowcrew.com
+ wip [wip!andrew@hide-BC80F5B4.lawn.gatech.edu] has joined #geeknights
+ har har har
+ well this is going to be popular...
+ Neito [Neito!neito@EB38180.F7B103C7.5E4272EE.IP] has joined #geeknights
+ I know it won't be popular, but it has been oft requested.
+ I'm bored, so let me prove it.
+ eh
+ Apusp [Apusp!~Aleksi@hide-B4B1B39B.kortex.jyu.fi] has joined #geeknights
+ I believe I said those exact words a couple years ago, the first time.
+ Yo
+ Still, it's not the Tribes situation, where giving in the the people begging for something is going to ruin what you're doing.
+ Torchlight2 tonight?/
+ yes, Torchlight 2 tonight
+ will get home 5:30ish
+ hmmm
+ just realized I did not do anything in order to maintain Op in this channel when I leave work.
+ What point in game are ya Apreche?
+ I am early on in second town.
+ low 20s
+ Scott, /cs help
+ haven't played in days
+ cs is not a command
+ pence [pence!creimer@D4136568.672DEAC0.E178207D.IP] has joined #geeknights
+ /msg chanserv help, then.
+ Some clients alias /cs to /msg chanserv.
+ that didn't do anything
+ man, irssi is awesome with Terminator
+ It should tell you how to register a channel and set yourself up as founder, so you can get/regain ops when need be.
+ man, I always feel dirty registering passwords in plaintext with nickserv
+ So, I don't know if this is a rumor or fact at this point, but it appears EA released FIFA 2012 on the Wii as if it were FIFA 2013.
+ And just changed the title screen.
+ meh
+ Granted, this is Reddit linking to a blog called Nintendo Gamer that I've never heard of prior to this story, but they got pictchas.
+ that did not give me any useful instructions
+ http://wiki.foonetic.net
+ Wow. OK, so, the chanserv built in help doesn't tell you how to register. Lovely.
+ /msg chanserv help register
+ Have I told people enought how I love finally having a computer that runs games better than 15fps?
+ says I have to login to register
+ I love having a comptuer that has a hard drive, right now.
+ how to login?
+ NickServ.
+ /msg nickserv help register
+ Apreche: /msg nickserv help register
+ yeah, what neito said
+ Don't use something you're not comfortable sending in plain text.
+ Cus, you know. IRC.
+ yeah, I pretty much use shitty passwords on irc
+ ChanServ [ChanServ!ChanServ@services.foonetic.net] has joined #geeknights
+ mode/#geeknights [+o ChanServ] by services.foonetic.net
+ mode/#geeknights [+ntq Apreche] by ChanServ
+ great success
+ yeah, I always use the crap password on IRC
+ can always recover with email reg
+ so if I leave and come back, it will be kosher now?
+ going to try it
+ Apreche has quit [Quit: leaving]
+ srubin [srubin!srubin@3D5CF9B3.436611FB.42F8F5C0.IP] has joined #geeknights
+ srubin is now known as Apreche
+ mode/#geeknights [+qo Apreche] by ChanServ
+ what what
+ IN the butt?
+ oh yeah
+ http://notalwaysright.com
+ hahaha
+ I've seen my mom use the internet, she'll type URLs into google rather than use the browser
+ I hold back a scream every time my Intro to Western Classical Music teacher types "www.youtube.com" in to the search bar.
+ This just in, old people don't know how to use the internet. More at 11
+ ninjarabbi [ninjarabbi!231828f1@hide-B64552F4.mibbit.com] has joined #geeknights
+ They could learn if they just bothered, though.
+ try teaching them to type youtube in the location bar and then press ctrl+enter to have it automatically add the .com
+ http://www.youtube.com
+ Steam's starting the beta for the Linux version next month.
+ O.O
+ I thought only 1000 people are getting in
+ Much excite
+ Yeah.
+ Still, starting is a good sign.
+ and it is not going to be a pleasurable user experience, for experts only
+ guess it can't be worse than hlds for Linux! *sickburn*
+ To be fair, they did remove the feature where it emails all your friends calling you a faggot. Which was nice.
+ still easier than wine, anyway
+ http://rss.slashdot.org
+ lol ./
+ rather /.
+ I only really follow Slashdot and two Fark tabs anymore.
+ I heard /. just got sold to new owners
+ Yeah.
+ I already forgot who.
+ lol fark
+ Oh, right.
+ Dice.
+ lol
+ when I bike to work there is this parked car with Dice ads all over it.
+ Do people actually get jobs off of Dice? I know a lot of people look there, but I've never actually heard of anyone getting a job of note from there.
+ you can get a job on Dice if you have really boring corporate tech skills
+ like you want to do JBoss for some ISO9000 place
+ So, you can be the "Exchange guy" for the rest of your life. Thrilling.
+ what is the command to list who is in the channel?
+ Depends on your client. I'm using XChat, so I just have a user list off to the right of the channel.
+ yeah I just use mibbit and I have the same thing
+ I thought that is something the server does
+ You can also do /who #geeknights.
+ No, userlist is client-side.
+ yeah, but that shows up in the command window
+ ok, in IRSSI it is /names
+ so it seems. Didn't know that. For some reason never care too much who's on channels with me.
+ Apreche changed topic of #geeknights to: GeekNights Podcast - frontrowcrew.com
+ ... Wow, apparently there are actually people who want the WiiU.
+ who is that?
+ Enough that GameStop is cutting off pre-orders.
+ It's probably the same "Buy a console and one party game" demographic that carried the Wii.
+ it will sell maybe slightly more than the 3DS at best, due to holiday season.
+ you gotta buy the kid something, and what else is there?
+ True.
+ (Answer: Books)
+ it's got the name nintendo on it, someone will want it
+ I want one, but short of a miracle theres no way I'm getting a launch wiiU
+ Honestly, I don't regret buying my 3DS.
+ at least, that's more true now than when the virtual boy was released
+ I got a wii at launch and don't regret it one bit but the WiiU just doesn't have that same pull
+ But my DS was also half-broken. It was either "Buy a DS Lite now and a 3DS in a couple years when they have their amazing games" or "Buy a 3DS now and don't waste money on a Lite".
+ I may get one one day... There are a few good games for it, but I haen't finished regular DS games
+ haven't beaten Edgeworth Investigations.
+ Keep your DS. Flashkarts rarely work on the 3DS.
+ I didn't even know the 3DS had flash carts at al
+ It doesn't.
+ But sometimes you can get a DS flashcart to work in DS mode on a 3DS.
+ Just get a used Lite on craigslist or something for dirt cheap just to use with flash carts.
+ So far the only hint of flashcart working would only be useful for bootlegging, not pirating.
+ Same with the Vita.
+ That was a dissapointing round of Arms Race.
+ I'll get a 3ds as soon as I can buy that Layton/Phoenix Wright crossover game
+ So will there be forum CS:Go server, I want to get to shoot forumites?
+ when Rym returns from India
+ which is Saturday
+ I still want a 1.6 server. For some reason I only find shitty servers with CS1.6 nowadays
+ I would think that the kind of people who still play 1.6 have their own little inside servers of elitism. But what do I know abdout 1.6.
+ purists
+ thats what I was hoping but most of the ones I tried were pretty sheisty. At least last time I tried
+ I think a lot of the lasting popularity of 1.6 on pubs is crazy mods people play
+ and the crazy mods aren't on CS:S or CS:GO
+ That, or they are just insane
+ I think it's mostly the later
+ I want to see a CS:GO/NS2 crossover.
+ marines planting bombs
+ terrorists growing hives
+ is NS2 not crashy yet?
+ It hasn't been crashy in many months
+ I don't need why there wouldn't be crazy mods on CS:S?
+ Tried to try NS2 today, serverlist full of empty.
+ By the way, Scott. YOu were asking what's different in Steam half-minute hero vs. XBox.
+ I can confirm there's online multiplater in this version.
+ What kind?
+ I dunno.
+ I just know there's online multiplayer.
+ I haven't played NS2 in a while
+ since before exo
+ Simpliest multiplayer I can imagine in Half minute hero would be racing against each other in real time, but that would be same as racing agasint your friends ghost, except you could trashtalk over skype.
+ It is a race.
+ it would be cool if it was somehow vs.
+ With the catch that if one person prays at the time godess statue, time resets for both players.
+ you come out of one castle, the other guy come sout of the other one
+ So there's a bit of bluffing/playing chicken with the other guy.
+ oh, so its easier because you get a few free statues the other guy paid for.
+ Or harder because he refuses to pay and you have to pay for all of them.
+ no
+ in that case you just let everyone die
+ happens in board games all the time
+ Rym will win if you don't do X, I absolutely refuse to do it
+ thereby forcing other player to do it
+ never be the guy who does it
+ armageddon is better than losing.
+ What's teh best IRC for iOS?
+ oh, Colloquy is good, but they are charging $2
+ farragar [farragar!farragar@hide-37BF9093.chu.cam.ac.uk] has joined #geeknights
+ farragar, where are your friends Gardakan and Mordak?
+ Who are you, boba fett?
+ you have passed the cool test
+ Just don't fall asleep around him
+ and your posterior is very hospitable
+ Watched that the other day actually, some friends of mine hadn't seen it
+ your name has many rr and gg, so it came to mind
+ Not surprising, sometimes I feel like it's time for a change. One of those middleschool names
+ my name is an early high school name
+ At least, I think it's middleschool. Is middleschool when you're like 15 or some shit?
+ 12ish?
+ Right, well I think I was about 15
+ What's up with everyone anyway?
+ going home very soon
+ after I punk this co-worker
+ at 5 on Friday he plays careless whisper as his shtick
+ I'm going to play metal remix of careless whisper at 4:59
+ My nick is fairly new, but it's a slight variation of high school -time nick.
+ My nicks how you spell Nate in Katakana.
+ (I was bored one day, years ago)
+ Wouldn't that be Naito?
+ Not according to my Japanese teacher.
+ ok then
+ I always assumed I srewed it up.
+ shows what I know
+ My katakana name in class is Neito.
+ Well, actually ???, but yeah.
+ Neito: and I always think you as Lady.
+ Yes, I'm aware of the finnish beauty competition and that Neito means something similar to Maiden in Finnish. :3
+ yup. Such a manly nick ye have chosen. :P
+ (You're not the first Finn to make that joke)
+ Apreche has quit [Client exited]
+ probably and likely.
+ Alright, I'm going to get some food. I just realized I haven't eaten all day.
+ ninjarabbi has quit [Quit: http://www.mibbit.com ajax IRC Client]
+ wip has quit [Ping timeout]
+ pence [pence!creimer@D4136568.672DEAC0.E178207D.IP] has parted #geeknights
+ pence [pence!pence@hide-FE0B97D9.phlapa.fios.verizon.net] has joined #geeknights
+ Neito has quit [Ping timeout]
+ dammit, scott should come back into the irc channel he made to coordinate TL2 clicking time
+ Bronzdragon [Bronzdragon!~Bronzdrag@BCF3CF0D:D43FA9F7:6A691D91:IP] has joined #geeknights
+ WHAT MAGIC IS THIS?
+ Also, what happend to the one on freenode?
+ no idea! I've only been around for like a month
+ Didn't Scott set that one up as well?
+ I'm just generally confused.
+ Aria [Aria!aria@hide-700C3A1D.getinternet.no] has joined #geeknights
+ The #geeknights?
+ Wait, that was supposed to say "new", not "the"
+ Yes, to both.
+ Which both?
+ I like the concept of there being a new #geeknights!
+ Hey, are you Apsup?
+ Because I can't tell due to possible misspellings.
+ Apusp is now known as Apsup
+ Are you accusing the gentleman of misspelling his own name?!
+ =P
+ hahaha
+ New keyboard, I blme it.
+ *blame
+ fuck this thing.
+ /slowclap
+ Eh, it's not so bad
+ You should give it to me, I need a new keyboard
+ does it have fancy assignable keys?
+ I used to hate this keyboard too, being completely unable to press spacebar with any consistency.
+ This is cheap 20e crap one.
+ Look at me know, spacing out all over the place!
+ He also presses enter every time he tries to press backspace
+ ...
+ (I also can't hit the backspace on his keyboard)
+ This doesn't even have basic media keys, something I miss from my laptop.
+ as long as it doesn't have an L-shaped enter key or a vertical arrangement above the arrow keys... or weirdly shaped keys...
+ My backspace is smaller then my menu key
+ What's wrong with L-shaped enter?
+ I always feel weird pressing an L-shaped enter with my pinky
+ like, "why is this so large"
+ ... you aren't supposed to look at your keyboard.
+ =P
+ this is just one of my lines in the sand!
+ I also like to finish my sentences while chatting with a flourish
+ Where I lift my hand, and hit it with my middle finger.
+ What I hate is that my backspace key is tiny
+ I think it's no good
+ Also, my sleep key should not be so damn close to my escape key!
+ Goddamn, the times I've hit that by accident...
+ It also seems to be the most sensetive key
+ going off when you shake his keyboard
+ It's like the escape key is on an island all by itself, but then the sleep key intrudes for no reason
+ Stupid pushy sleep key!
+ either I fail at steam, or there's no easy way to just invite random people into a chat (this may be a feature not a bug)
+ Both are possible
+ but I think you're wrong
+ So, see that little green man in the top left? with a dropdown arrow?
+ I think it's there that you can invite people
+ I was wrong
+ it's the arrow in the right
+ Neito [Neito!neito@CC88F599.6DD38336.5E4272EE.IP] has joined #geeknights
+ 'sup Neito.
+ yeah... from the looks of it that'll get people on your friends list or private groups, but not public groups
+ Not much.
+ Ah, I see what you'er trying to do now.
+ so I can't just wrangle apsup and apreche for torchlight that way
+ farragar has quit [Quit: ]

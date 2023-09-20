@@ -1,0 +1,285 @@
+[18:58:53] -!- FRCBot [FRCBot!FRCBot@hide-4CF1CE16.members.linode.com] has joined #geeknights
+[18:59:03] <Apreche> test
+[19:04:20] -!- FRCBot [FRCBot!FRCBot@hide-4CF1CE16.members.linode.com] has joined #geeknights
+[19:04:42] <Apreche> wee
+[19:10:34] Apreche changed topic of #geeknights to: GeekNights Podcast http://frontrowcrew.com
+[19:13:52] -!- wip [wip!andrew@hide-BC80F5B4.lawn.gatech.edu] has joined #geeknights
+[19:14:00] <wip> har har har
+[19:17:57] <wip> well this is going to be popular...
+[19:25:53] -!- Neito [Neito!neito@EB38180.F7B103C7.5E4272EE.IP] has joined #geeknights
+[19:27:57] <Apreche> I know it won't be popular, but it has been oft requested.
+[19:28:19] <Apreche> I'm bored, so let me prove it.
+[19:28:19] <wip> eh
+[19:28:33] -!- Apusp [Apusp!~Aleksi@hide-B4B1B39B.kortex.jyu.fi] has joined #geeknights
+[19:28:36] <Neito> I believe I said those exact words a couple years ago, the first time.
+[19:28:38] <Apusp> Yo
+[19:29:20] <Neito> Still, it's not the Tribes situation, where giving in the the people begging for something is going to ruin what you're doing.
+[19:29:21] <wip> Torchlight2 tonight?/
+[19:29:32] <Apreche> yes, Torchlight 2 tonight
+[19:29:39] <Apreche> will get home 5:30ish
+[19:29:44] <Apreche> hmmm
+[19:29:53] <Apreche> just realized I did not do anything in order to maintain Op in this channel when I leave work.
+[19:30:00] <Apusp> What point in game are ya Apreche?
+[19:30:10] <Apreche> I am early on in second town.
+[19:30:13] <Apreche> low 20s
+[19:30:13] <Neito> Scott, /cs help
+[19:30:16] <Apreche> haven't played in days
+[19:30:43] <Apreche> cs is not a command
+[19:30:47] -!- pence [pence!creimer@D4136568.672DEAC0.E178207D.IP] has joined #geeknights
+[19:30:57] <Neito> /msg chanserv help, then.
+[19:31:06] <Neito> Some clients alias /cs to /msg chanserv.
+[19:31:38] <Apreche> that didn't do anything
+[19:32:01] <wip> man, irssi is awesome with Terminator
+[19:32:05] <Neito> It should tell you how to register a channel and set yourself up as founder, so you can get/regain ops when need be.
+[19:32:46] <pence> man, I always feel dirty registering passwords in plaintext with nickserv
+[19:32:53] <Neito> So, I don't know if this is a rumor or fact at this point, but it appears EA released FIFA 2012 on the Wii as if it were FIFA 2013.
+[19:33:25] <Neito> And just changed the title screen.
+[19:33:40] <wip> meh
+[19:34:56] <Neito> Granted, this is Reddit linking to a blog called Nintendo Gamer that I've never heard of prior to this story, but they got pictchas.
+[19:35:07] <Apreche> that did not give me any useful instructions
+[19:35:43] <wip> http://wiki.foonetic.net
+[19:36:17] <Neito> Wow. OK, so, the chanserv built in help doesn't tell you how to register. Lovely.
+[19:36:37] <pence> /msg chanserv help register
+[19:37:45] <Apusp> Have I told people enought how I love finally having a computer that runs games better than 15fps?
+[19:38:17] <Apreche> says I have to login to register
+[19:38:31] <Neito> I love having a comptuer that has a hard drive, right now.
+[19:38:36] <Apreche> how to login?
+[19:38:39] <Neito> NickServ.
+[19:39:17] <Neito> /msg nickserv help register
+[19:39:19] <pence> Apreche: /msg nickserv help register
+[19:39:25] <pence> yeah, what neito said
+[19:39:30] <Neito> Don't use something you're not comfortable sending in plain text.
+[19:39:38] <Neito> Cus, you know. IRC.
+[19:39:45] <pence> yeah, I pretty much use shitty passwords on irc
+[19:41:06] -!- ChanServ [ChanServ!ChanServ@services.foonetic.net] has joined #geeknights
+[19:41:06] -!- mode/#geeknights [+o ChanServ] by services.foonetic.net
+[19:41:06] -!- mode/#geeknights [+ntq Apreche] by ChanServ
+[19:41:23] <Apreche> great success
+[19:42:00] <Apreche> yeah, I always use the crap password on IRC
+[19:42:10] <Apreche> can always recover with email reg
+[19:42:28] <Apreche> so if I leave and come back, it will be kosher now?
+[19:42:48] <Apreche> going to try it
+[19:42:50] -!- Apreche has quit [Quit: leaving]
+[19:43:08] -!- srubin [srubin!srubin@3D5CF9B3.436611FB.42F8F5C0.IP] has joined #geeknights
+[19:43:12] srubin is now known as Apreche
+[19:43:27] -!- mode/#geeknights [+qo Apreche] by ChanServ
+[19:43:37] <Apreche> what what
+[19:43:43] <Neito> IN the butt?
+[19:43:50] <Apreche> oh yeah
+[19:45:16] <Neito> http://notalwaysright.com
+[19:46:09] <pence> hahaha
+[19:47:57] <pence> I've seen my mom use the internet, she'll type URLs into google rather than use the browser
+[19:48:54] <Neito> I hold back a scream every time my Intro to Western Classical Music teacher types "www.youtube.com" in to the search bar.
+[19:49:41] <wip> This just in, old people don't know how to use the internet. More at 11
+[19:49:56] -!- ninjarabbi [ninjarabbi!231828f1@hide-B64552F4.mibbit.com] has joined #geeknights
+[19:50:18] <Neito> They could learn if they just bothered, though.
+[19:50:41] <Apreche> try teaching them to type youtube in the location bar and then press ctrl+enter to have it automatically add the .com
+[19:51:25] <Apreche> http://www.youtube.com
+[19:52:12] <Neito> Steam's starting the beta for the Linux version next month.
+[19:52:19] <Apusp> O.O
+[19:52:22] <Apreche> I thought only 1000 people are getting in
+[19:52:22] <wip> Much excite
+[19:52:30] <Neito> Yeah.
+[19:52:34] <Neito> Still, starting is a good sign.
+[19:52:38] <Apreche> and it is not going to be a pleasurable user experience, for experts only
+[19:52:50] <Apreche> guess it can't be worse than hlds for Linux! *sickburn*
+[19:53:21] <Neito> To be fair, they did remove the feature where it emails all your friends calling you a faggot. Which was nice.
+[19:53:33] <ninjarabbi> still easier than wine, anyway
+[19:54:56] <Neito> http://rss.slashdot.org
+[19:55:15] <wip> lol ./
+[19:55:39] <wip> rather /.
+[19:55:56] <Neito> I only really follow Slashdot and two Fark tabs anymore.
+[19:55:59] <Apreche> I heard /. just got sold to new owners
+[19:56:05] <Neito> Yeah.
+[19:56:08] <Neito> I already forgot who.
+[19:56:12] <wip> lol fark
+[19:56:28] <Neito> Oh, right.
+[19:56:29] <Neito> Dice.
+[19:56:33] <Apreche> lol
+[19:56:51] <Apreche> when I bike to work there is this parked car with Dice ads all over it.
+[19:57:02] <Neito> Do people actually get jobs off of Dice? I know a lot of people look there, but I've never actually heard of anyone getting a job of note from there.
+[19:57:21] <Apreche> you can get a job on Dice if you have really boring corporate tech skills
+[19:57:38] <Apreche> like you want to do JBoss for some ISO9000 place
+[19:57:38] <Neito> So, you can be the "Exchange guy" for the rest of your life. Thrilling.
+[19:59:20] <Apreche> what is the command to list who is in the channel?
+[20:00:58] <Neito> Depends on your client. I'm using XChat, so I just have a user list off to the right of the channel.
+[20:01:38] <ninjarabbi> yeah I just use mibbit and I have the same thing
+[20:01:40] <Apreche> I thought that is something the server does
+[20:02:05] <Neito> You can also do /who #geeknights.
+[20:02:17] <Neito> No, userlist is client-side.
+[20:02:20] <Apreche> yeah, but that shows up in the command window
+[20:02:50] <Apreche> ok, in IRSSI it is /names
+[20:03:38] <Apusp> so it seems. Didn't know that. For some reason never care too much who's on channels with me.
+[20:03:38] Apreche changed topic of #geeknights to: GeekNights Podcast - frontrowcrew.com
+[20:04:25] <Neito> ... Wow, apparently there are actually people who want the WiiU.
+[20:04:42] <Apreche> who is that?
+[20:04:51] <Neito> Enough that GameStop is cutting off pre-orders.
+[20:05:14] <Neito> It's probably the same "Buy a console and one party game" demographic that carried the Wii.
+[20:05:31] <Apreche> it will sell maybe slightly more than the 3DS at best, due to holiday season.
+[20:05:42] <Apreche> you gotta buy the kid something, and what else is there?
+[20:05:46] <Neito> True.
+[20:05:53] <Neito> (Answer: Books)
+[20:05:59] <pence> it's got the name nintendo on it, someone will want it
+[20:06:13] <ninjarabbi> I want one, but short of a miracle theres no way I'm getting a launch wiiU
+[20:06:14] <Neito> Honestly, I don't regret buying my 3DS.
+[20:06:34] <pence> at least, that's more true now than when the virtual boy was released
+[20:06:54] <ninjarabbi> I got a wii at launch and don't regret it one bit but the WiiU just doesn't have that same pull
+[20:06:55] <Neito> But my DS was also half-broken. It was either "Buy a DS Lite now and a 3DS in a couple years when they have their amazing games" or "Buy a 3DS now and don't waste money on a Lite".
+[20:07:12] <Apreche> I may get one one day... There are a few good games for it, but I haen't finished regular DS games
+[20:07:23] <Apreche> haven't beaten Edgeworth Investigations.
+[20:07:27] <Neito> Keep your DS. Flashkarts rarely work on the 3DS.
+[20:07:39] <Apreche> I didn't even know the 3DS had flash carts at al
+[20:07:44] <Neito> It doesn't.
+[20:07:59] <Neito> But sometimes you can get a DS flashcart to work in DS mode on a 3DS.
+[20:08:14] <ninjarabbi> Just get a used Lite on craigslist or something for dirt cheap just to use with flash carts.
+[20:09:17] <Neito> So far the only hint of flashcart working would only be useful for bootlegging, not pirating.
+[20:09:29] <Neito> Same with the Vita.
+[20:09:32] <Apusp> That was a dissapointing round of Arms Race.
+[20:09:53] <pence> I'll get a 3ds as soon as I can buy that Layton/Phoenix Wright crossover game
+[20:09:57] <Apusp> So will there be forum CS:Go server, I want to get to shoot forumites?
+[20:10:49] <Apreche> when Rym returns from India
+[20:10:55] <Apreche> which is Saturday
+[20:11:40] <ninjarabbi> I still want a 1.6 server. For some reason I only find shitty servers with CS1.6 nowadays
+[20:12:43] <Apusp> I would think that the kind of people who still play 1.6 have their own little inside servers of elitism. But what do I know abdout 1.6.
+[20:13:18] <Apreche> purists
+[20:13:22] <ninjarabbi> thats what I was hoping but most of the ones I tried were pretty sheisty. At least last time I tried
+[20:26:10] <Apreche> I think a lot of the lasting popularity of 1.6 on pubs is crazy mods people play
+[20:26:15] <Apreche> and the crazy mods aren't on CS:S or CS:GO
+[20:26:24] <wip> That, or they are just insane
+[20:26:30] <wip> I think it's mostly the later
+[20:26:57] <Apreche> I want to see a CS:GO/NS2 crossover.
+[20:27:07] <Apreche> marines planting bombs
+[20:27:10] <Apreche> terrorists growing hives
+[20:28:28] <ninjarabbi> is NS2 not crashy yet?
+[20:28:39] <Apreche> It hasn't been crashy in many months
+[20:28:46] <Apusp> I don't need why there wouldn't be crazy mods on CS:S?
+[20:29:03] <Apusp> Tried to try NS2 today, serverlist full of empty.
+[20:29:06] <Neito> By the way, Scott. YOu were asking what's different in Steam half-minute hero vs. XBox.
+[20:29:14] <Neito> I can confirm there's online multiplater in this version.
+[20:29:37] <Apusp> What kind?
+[20:29:57] <Neito> I dunno.
+[20:30:04] <Neito> I just know there's online multiplayer.
+[20:30:41] <wip> I haven't played NS2 in a while
+[20:30:47] <wip> since before exo
+[20:31:56] <Apusp> Simpliest multiplayer I can imagine in Half minute hero would be racing against each other in real time, but that would be same as racing agasint your friends ghost, except you could trashtalk over skype.
+[20:36:46] <Neito> It is a race.
+[20:37:01] <Apreche> it would be cool if it was somehow vs.
+[20:37:08] <Neito> With the catch that if one person prays at the time godess statue, time resets for both players.
+[20:37:09] <Apreche> you come out of one castle, the other guy come sout of the other one
+[20:37:27] <Neito> So there's a bit of bluffing/playing chicken with the other guy.
+[20:37:31] <Apreche> oh, so its easier because you get a few free statues the other guy paid for.
+[20:37:48] <Neito> Or harder because he refuses to pay and you have to pay for all of them.
+[20:37:56] <Apreche> no
+[20:38:00] <Apreche> in that case you just let everyone die
+[20:38:13] <Apreche> happens in board games all the time
+[20:38:24] <Apreche> Rym will win if you don't do X, I absolutely refuse to do it
+[20:38:28] <Apreche> thereby forcing other player to do it
+[20:38:39] <Apreche> never be the guy who does it
+[20:38:44] <Apreche> armageddon is better than losing.
+[20:40:16] <Apreche> What's teh best IRC for iOS?
+[20:41:00] <Apreche> oh, Colloquy is good, but they are charging $2
+[20:49:15] -!- farragar [farragar!farragar@hide-37BF9093.chu.cam.ac.uk] has joined #geeknights
+[20:50:17] <Apreche> farragar, where are your friends Gardakan and Mordak?
+[20:50:34] <farragar> Who are you, boba fett?
+[20:50:48] <Apreche> you have passed the cool test
+[20:50:54] <wip> Just don't fall asleep around him
+[20:50:56] <Apreche> and your posterior is very hospitable
+[20:51:37] <farragar> Watched that the other day actually, some friends of mine hadn't seen it
+[20:51:53] <Apreche> your name has many rr and gg, so it came to mind
+[20:52:22] <farragar> Not surprising, sometimes I feel like it's time for a change. One of those middleschool names
+[20:52:33] <Apreche> my name is an early high school name
+[20:52:36] <farragar> At least, I think it's middleschool. Is middleschool when you're like 15 or some shit?
+[20:52:53] <wip> 12ish?
+[20:53:41] <farragar> Right, well I think I was about 15
+[20:54:55] <farragar> What's up with everyone anyway?
+[20:56:15] <Apreche> going home very soon
+[20:56:22] <Apreche> after I punk this co-worker
+[20:56:33] <Apreche> at 5 on Friday he plays careless whisper as his shtick
+[20:56:41] <Apreche> I'm going to play metal remix of careless whisper at 4:59
+[20:56:49] <Apusp> My nick is fairly new, but it's a slight variation of high school -time nick.
+[20:57:01] <Neito> My nicks how you spell Nate in Katakana.
+[20:57:09] <Neito> (I was bored one day, years ago)
+[20:57:32] <Apreche> Wouldn't that be Naito?
+[20:57:51] <Neito> Not according to my Japanese teacher.
+[20:57:55] <Apreche> ok then
+[20:57:58] <Neito> I always assumed I srewed it up.
+[20:58:01] <Apreche> shows what I know
+[20:58:06] <Neito> My katakana name in class is Neito.
+[20:58:48] <Neito> Well, actually ???, but yeah.
+[20:59:19] <Apusp> Neito: and I always think you as Lady.
+[20:59:45] <Neito> Yes, I'm aware of the finnish beauty competition and that Neito means something similar to Maiden in Finnish. :3
+[21:00:05] <Apusp> yup. Such a manly nick ye have chosen. :P
+[21:00:09] <Neito> (You're not the first Finn to make that joke)
+[21:00:20] -!- Apreche has quit [Client exited]
+[21:00:37] <Apusp> probably and likely.
+[21:00:57] <Neito> Alright, I'm going to get some food. I just realized I haven't eaten all day.
+[21:31:15] -!- ninjarabbi has quit [Quit: http://www.mibbit.com ajax IRC Client]
+[21:43:08] -!- wip has quit [Ping timeout]
+[21:45:27] -!- pence [pence!creimer@D4136568.672DEAC0.E178207D.IP] has parted #geeknights
+[22:14:09] -!- pence [pence!pence@hide-FE0B97D9.phlapa.fios.verizon.net] has joined #geeknights
+[22:19:53] -!- Neito has quit [Ping timeout]
+[22:26:46] <pence> dammit, scott should come back into the irc channel he made to coordinate TL2 clicking time
+[22:29:00] -!- Bronzdragon [Bronzdragon!~Bronzdrag@BCF3CF0D:D43FA9F7:6A691D91:IP] has joined #geeknights
+[22:29:09] <Bronzdragon> WHAT MAGIC IS THIS?
+[22:29:16] <Bronzdragon> Also, what happend to the one on freenode?
+[22:30:32] <pence> no idea! I've only been around for like a month
+[22:31:03] <Bronzdragon> Didn't Scott set that one up as well?
+[22:31:10] <Bronzdragon> I'm just generally confused.
+[22:31:58] -!- Aria [Aria!aria@hide-700C3A1D.getinternet.no] has joined #geeknights
+[22:32:06] <Aria> The #geeknights?
+[22:32:24] <Aria> Wait, that was supposed to say "new", not "the"
+[22:37:56] <Apusp> Yes, to both.
+[22:38:18] <Bronzdragon> Which both?
+[22:38:29] <Aria> I like the concept of there being a new #geeknights!
+[22:38:34] <Bronzdragon> Hey, are you Apsup?
+[22:38:48] <Bronzdragon> Because I can't tell due to possible misspellings.
+[22:38:52] Apusp is now known as Apsup
+[22:38:56] <Aria> Are you accusing the gentleman of misspelling his own name?!
+[22:38:57] <Bronzdragon> =P
+[22:38:59] <pence> hahaha
+[22:39:06] <Apsup> New keyboard, I blme it.
+[22:39:10] <Apsup> *blame
+[22:39:13] <Apsup> fuck this thing.
+[22:39:18] <pence> /slowclap
+[22:39:19] <Bronzdragon> Eh, it's not so bad
+[22:39:26] <Aria> You should give it to me, I need a new keyboard
+[22:39:31] <Aria> does it have fancy assignable keys?
+[22:39:36] <Bronzdragon> I used to hate this keyboard too, being completely unable to press spacebar with any consistency.
+[22:39:43] <Apsup> This is cheap 20e crap one.
+[22:39:45] <Bronzdragon> Look at me know, spacing out all over the place!
+[22:39:53] <Aria> He also presses enter every time he tries to press backspace
+[22:39:59] <Bronzdragon> ...
+[22:40:24] <Aria> (I also can't hit the backspace on his keyboard)
+[22:40:31] <Apsup> This doesn't even have basic media keys, something I miss from my laptop.
+[22:40:35] <pence> as long as it doesn't have an L-shaped enter key or a vertical arrangement above the arrow keys... or weirdly shaped keys...
+[22:40:37] <Bronzdragon> My backspace is smaller then my menu key
+[22:40:59] <Bronzdragon> What's wrong with L-shaped enter?
+[22:41:35] <pence> I always feel weird pressing an L-shaped enter with my pinky
+[22:41:40] <pence> like, "why is this so large"
+[22:41:53] <Bronzdragon> ... you aren't supposed to look at your keyboard.
+[22:41:56] <Bronzdragon> =P
+[22:42:27] <pence> this is just one of my lines in the sand!
+[22:42:27] <Bronzdragon> I also like to finish my sentences while chatting with a flourish
+[22:42:39] <Bronzdragon> Where I lift my hand, and hit it with my middle finger.
+[22:43:22] <Bronzdragon> What I hate is that my backspace key is tiny
+[22:43:27] <Bronzdragon> I think it's no good
+[22:43:38] <Bronzdragon> Also, my sleep key should not be so damn close to my escape key!
+[22:43:45] <Bronzdragon> Goddamn, the times I've hit that by accident...
+[22:44:04] <Aria> It also seems to be the most sensetive key
+[22:44:08] <Aria> going off when you shake his keyboard
+[22:44:09] <Bronzdragon> It's like the escape key is on an island all by itself, but then the sleep key intrudes for no reason
+[22:44:21] <Bronzdragon> Stupid pushy sleep key!
+[22:48:47] <pence> either I fail at steam, or there's no easy way to just invite random people into a chat (this may be a feature not a bug)
+[22:50:00] <Bronzdragon> Both are possible
+[22:50:04] <Bronzdragon> but I think you're wrong
+[22:50:17] <Bronzdragon> So, see that little green man in the top left? with a dropdown arrow?
+[22:50:21] <Bronzdragon> I think it's there that you can invite people
+[22:51:00] <Bronzdragon> I was wrong
+[22:51:04] <Bronzdragon> it's the arrow in the right
+[22:52:04] -!- Neito [Neito!neito@CC88F599.6DD38336.5E4272EE.IP] has joined #geeknights
+[22:52:14] <Bronzdragon> 'sup Neito.
+[22:52:18] <pence> yeah... from the looks of it that'll get people on your friends list or private groups, but not public groups
+[22:52:21] <Neito> Not much.
+[22:52:32] <Bronzdragon> Ah, I see what you'er trying to do now.
+[22:52:45] <pence> so I can't just wrangle apsup and apreche for torchlight that way
+[23:04:36] -!- farragar has quit [Quit: ]
