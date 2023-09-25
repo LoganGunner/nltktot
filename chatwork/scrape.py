@@ -2,6 +2,7 @@ import nltk
 import re
 from nltk.corpus import stopwords
 
+
 ###################################[ Constants ]######################################
 
 USERNAMEEXPRESSION = "<[A-Za-z0-9]+>"
@@ -32,7 +33,7 @@ KEYWORDS = [ # List of Keywords to reference
 
 # text.close()
 
-text = "Joe Biden is The President of the United States. He has many important duties." # open('chatmessages.txt', 'r').read()
+text = open('chatmessages.txt', 'r').read()
 
 stop_words = set(stopwords.words("english"))
 
@@ -64,7 +65,5 @@ def extract_ne(quote:str):
 
 
 
-
-
-
+text.concordance()
 
