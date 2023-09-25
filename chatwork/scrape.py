@@ -75,6 +75,6 @@ def extract_ne(quote:str):
     )
 
 
-
+text = textify("chatmessages.txt")
 text.concordance()
 
