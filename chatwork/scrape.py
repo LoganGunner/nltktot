@@ -77,6 +77,3 @@ def extract_ne(quote:str):
 
 Text(nltk.word_tokenize(text)).concordance("torchlight2")
 
-
-text = textify('IRCsamplechat.txt')
-text.concordance("torchlight2")
