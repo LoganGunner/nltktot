@@ -282,4 +282,4 @@
 [22:52:21] <Neito> Not much.
 [22:52:32] <Bronzdragon> Ah, I see what you'er trying to do now.
 [22:52:45] <pence> so I can't just wrangle apsup and apreche for torchlight that way
-[23:04:36] -!- farragar has quit [Quit: ]
+[23:04:36] -!- farragar has quit [Quit: ]  

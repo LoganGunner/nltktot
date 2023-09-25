@@ -1,6 +1,9 @@
 import nltk
 import re
+from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
+from nltk.text import Text
+import sys
 
 
 ###################################[ Constants ]######################################
@@ -36,6 +39,14 @@ KEYWORDS = [ # List of Keywords to reference
 text = open('chatmessages.txt', 'r').read()
 
 stop_words = set(stopwords.words("english"))
+
+
+def textify(filename):
+    # read text
+    text = open(filename, "r").read()
+    tokens = word_tokenize(text)
+    textList = Text(tokens)
+    return textList
 
 class namedEntity :
     def __init__(self, word:str) -> None:
