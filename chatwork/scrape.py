@@ -1,7 +1,5 @@
-import nltk
-import re
-from nltk.text import Text
-import sys
+from nltk import *
+
 
 
 ###################################[ Constants ]######################################
@@ -15,29 +13,27 @@ KEYWORDS = [ # List of Keywords to reference
 
 ######################################################################################
 
-# file = open('IRCsamplechat.txt')
+file = open('IRCsamplechat.txt')
 
-# text = open('chatmessages.txt', "w")
+chats = open('chatmessages.txt', "w")
 
-# for line in file.readlines():
-#    # line = line.strip("\n")
-#     timestamp = re.search(TIMESTAMPEXPRESSION, line).group()
-#     username = re.search(USERNAMEEXPRESSION, line)
-#     if not username:
-#         username = re.search(SYSTEMUSERNAME, line)
-#     if username:
-#         username = username.group()
-#         message = re.split(username, line)[-1]
-#     else: message = re.split(TIMESTAMPEXPRESSION, line)[-1]
+for line in file.readlines():
+   # line = line.strip("\n")
+    timestamp = re.search(TIMESTAMPEXPRESSION, line).group()
+    username = re.search(USERNAMEEXPRESSION, line)
+    if not username:
+        username = re.search(SYSTEMUSERNAME, line)
+    if username:
+        username = username.group()
+        message = re.split(username, line)[-1]
+    else: message = re.split(TIMESTAMPEXPRESSION, line)[-1]
 
-#     text.write(message)
+    chats.write(message)
 
-# text.close()
+chats.close()
 
-text = open('chatmessages.txt', 'r').read()
-quote = "Joe Biden is The President of the United States. He has many important duties." # open('chatmessages.txt', 'r').read()
+chats = open('chatmessages.txt', 'r').read()
 
-
-textList = Text(nltk.word_tokenize(text))
+textList = Text(word_tokenize(chats))
 for word in KEYWORDS:
     textList.concordance(word)

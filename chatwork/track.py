@@ -1,10 +1,10 @@
-import nltk
-from nltk.text import Text
+from nltk import *
+
 
 def textify(filename):
     # read text
     text = open(filename, "r").read()
-    tokens = nltk.word_tokenize(text)
+    tokens = word_tokenize(text)
     textList = Text(tokens)
     return textList
 
@@ -25,9 +25,9 @@ class namedEntity :
 
 def extract_ne(quote:str):
     '''Iterates through a text or quote and returns a set of named entities as a list of strings'''
-    words = nltk.word_tokenize(quote)
-    tags = nltk.pos_tag(words)
-    tree = nltk.ne_chunk(tags, binary=True)
+    words = word_tokenize(quote)
+    tags = pos_tag(words)
+    tree = ne_chunk(tags, binary=True)
     return set(
         " ".join(i[0] for i in t)
         for t in tree
