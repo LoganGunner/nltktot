@@ -4,11 +4,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
 from nltk.text import Text
 import sys
-<<<<<<< HEAD
-from nltk.text import Text
 
-=======
->>>>>>> 7e6fbcb1e0233fbe8cae0e17d29e7b13c1b27036
 
 ###################################[ Constants ]######################################
 
@@ -40,11 +36,8 @@ KEYWORDS = [ # List of Keywords to reference
 
 # text.close()
 
-<<<<<<< HEAD
 text = open('chatmessages.txt', 'r').read()
-=======
 quote = "Joe Biden is The President of the United States. He has many important duties." # open('chatmessages.txt', 'r').read()
->>>>>>> 7e6fbcb1e0233fbe8cae0e17d29e7b13c1b27036
 
 stop_words = set(stopwords.words("english"))
 
@@ -82,11 +75,8 @@ def extract_ne(quote:str):
         if (hasattr(t, "label") and t.label == "NE") or (hasattr(t, "label") and t.label == "NNP")
     )
 
-<<<<<<< HEAD
 Text(nltk.word_tokenize(text)).concordance("torchlight2")
 
-=======
 
 text = textify('IRCsamplechat.txt')
 text.concordance("torchlight2")
->>>>>>> 7e6fbcb1e0233fbe8cae0e17d29e7b13c1b27036
