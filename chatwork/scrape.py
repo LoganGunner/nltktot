@@ -1,6 +1,9 @@
 import nltk
 import re
+from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
+from nltk.text import Text
+import sys
 
 ###################################[ Constants ]######################################
 
@@ -32,9 +35,17 @@ KEYWORDS = [ # List of Keywords to reference
 
 # text.close()
 
-text = "Joe Biden is The President of the United States. He has many important duties." # open('chatmessages.txt', 'r').read()
+quote = "Joe Biden is The President of the United States. He has many important duties." # open('chatmessages.txt', 'r').read()
 
 stop_words = set(stopwords.words("english"))
+
+
+def textify(filename):
+    # read text
+    text = open(filename, "r").read()
+    tokens = word_tokenize(text)
+    textList = Text(tokens)
+    return textList
 
 class namedEntity :
     def __init__(self, word:str) -> None:
@@ -62,9 +73,6 @@ def extract_ne(quote:str):
         if (hasattr(t, "label") and t.label() == "NE") or (hasattr(t, "label") and t.label == "NNP")
     )
 
-print(extract_ne(text))
 
-
-
-
-
+text = textify('IRCsamplechat.txt')
+text.concordance("torchlight2")
