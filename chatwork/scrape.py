@@ -1,13 +1,14 @@
 import nltk
 import re
 from nltk.corpus import stopwords
+from nltk.text import Text
 
 
 ###################################[ Constants ]######################################
 
-USERNAMEEXPRESSION = "<[A-Za-z0-9]+>"
-SYSTEMUSERNAME = "-!-"
-TIMESTAMPEXPRESSION = "\[[0-9]{2}:[0-9]{2}:[0-9]{2}(\.[0-9]{1,3})?\]"
+USERNAMEEXPRESSION = "<[A-Za-z0-9]+>" # RegEx for usernames contained between <>
+SYSTEMUSERNAME = "-!-" # The tag for system messages, change based on system/chat log origins
+TIMESTAMPEXPRESSION = "\[[0-9]{2}:[0-9]{2}:[0-9]{2}(\.[0-9]{1,3})?\]" # RegEx for timestamp as [HH:MM:SS.MS]
 KEYWORDS = [ # List of Keywords to reference
     'keyboard', 'key'
 ]
@@ -60,10 +61,8 @@ def extract_ne(quote:str):
     return set(
         " ".join(i[0] for i in t)
         for t in tree
-        if (hasattr(t, "label") and t.label() == "NE") or (hasattr(t, "label") and t.label == "NNP")
+        if (hasattr(t, "label") and t.label == "NE") or (hasattr(t, "label") and t.label == "NNP")
     )
 
-
-
-text.concordance()
+Text(nltk.word_tokenize(text)).concordance("torchlight2")
 
