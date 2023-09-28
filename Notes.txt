@@ -1,4 +1,4 @@
-notes
+notes:
 
 make language/program data agnostic/flexible
 
@@ -9,3 +9,22 @@ should call from database for keywords, etc.
 focus on tracking one level of task, then adding in layers afterwards
 
 seed some garbage data with intentional tracking tags to simulate
+
+database idea:
+tagging for start and end of conversation in database?
+tagging conversation ex: task 1, task 2
+tagging sub conversations ex: sub task 1, sub task 2
+
+use python to call chat logs from database, create conversation/topic objects, 
+insert those into a separate table in the database for graphing a GANTT chart
+
+Name - Start - End (required for GANTT chart)
+
+displaying concurrent messages with the conversation?
+
+Ex: |---------------Conversation name------------|
+     •chat 1  •chat 2
+
+is this doable with grafana GANTT plugin?
+IS doable with Data Links Link data as time range based on currently selected 
+portion of GANTT graph, showing nearby timed messages in a separate field
