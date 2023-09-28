@@ -6,12 +6,11 @@ SYSTEMUSERNAME = "-!-" # The tag for system messages, change based on system/cha
 
 TIMESTAMPEXPRESSION = "\[[0-9]{2}:[0-9]{2}:[0-9]{2}(\.[0-9]{1,3})?\]" # RegEx for timestamp as [HH:MM:SS.MS]
 
-KEYWORDS = [ # List of Keywords to reference
-    
-]
-AIRFRAMES = {
-    
+KEYALIASES = { # Dictionary of Key words with a list of multiple aliases
+    'Example': [],
+    'Another Example': []
 }
+
 ACRONYMS = { # Dictionary of common acronyms used in military IRC communications for substituting acronyms for more naturally readable phrases.
     'ACO': 'airspace control order',
     'ADA': 'air defense artillery',

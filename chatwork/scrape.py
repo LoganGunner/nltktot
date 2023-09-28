@@ -23,5 +23,3 @@ chats.close()
 chats = open('chatmessages.txt', 'r').read()
 
 textList = Text(word_tokenize(chats))
-for word in KEYWORDS:
-    textList.concordance(word)
