@@ -1,0 +1,11 @@
+notes
+
+make language/program data agnostic/flexible
+
+do not want to adjust python on the fly
+
+should call from database for keywords, etc.
+
+focus on tracking one level of task, then adding in layers afterwards
+
+seed some garbage data with intentional tracking tags to simulate

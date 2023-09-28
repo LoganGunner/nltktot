@@ -1,0 +1,25 @@
+Example track messages:
+
+[Timestamp] <Whiteforce> TRACK 1 POSTED
+
+[Timestamp] <user 1> TRACK 1 ACK
+
+[Timestamp] <user 1> TRACK 1 WORKING
+
+[Timestamp] <user x> TRACK 1 MESSAGE
+
+[Timestamp] <Whiteforce> TRACK 2 POSTED
+
+[Timestamp] <user 1> TRACK 2 ACK
+
+[Timestamp] <user x> TRACK 1 MESSAGE
+
+[Timestamp] <user 1> TRACK 1 COMPLETE
+
+[Timestamp] <user x> TRACK 2 MESSAGE
+
+[Timestamp] <user 1> TRACK 2 WORKING
+
+[Timestamp] <Whiteforce> TRACK 3 POSTED
+
+[Timestamp] <user 1> TRACK 3 ACK
