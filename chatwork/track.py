@@ -33,3 +33,4 @@ def extract_ne(quote:str):
         for t in tree
         if (hasattr(t, "label") and t.label == "NE") or (hasattr(t, "label") and t.label == "NNP")
     )
+
