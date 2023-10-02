@@ -1,11 +1,13 @@
 [18:58:53] -!- FRCBot [FRCBot!FRCBot@hide-4CF1CE16.members.linode.com] has joined #geeknights
 [18:59:03] <Apreche> test
+[19:01:12] <Whiteforce> TRACK 1 POSTED
 [19:04:20] -!- FRCBot [FRCBot!FRCBot@hide-4CF1CE16.members.linode.com] has joined #geeknights
 [19:04:42] <Apreche> wee
 [19:10:34] Apreche changed topic of #geeknights to: GeekNights Podcast http://frontrowcrew.com
 [19:13:52] -!- wip [wip!andrew@hide-BC80F5B4.lawn.gatech.edu] has joined #geeknights
 [19:14:00] <wip> har har har
 [19:17:57] <wip> well this is going to be popular...
+[19:23:45] <user 1> TRACK 1 ACK
 [19:25:53] -!- Neito [Neito!neito@EB38180.F7B103C7.5E4272EE.IP] has joined #geeknights
 [19:27:57] <Apreche> I know it won't be popular, but it has been oft requested.
 [19:28:19] <Apreche> I'm bored, so let me prove it.
@@ -40,6 +42,7 @@
 [19:35:43] <wip> http://wiki.foonetic.net
 [19:36:17] <Neito> Wow. OK, so, the chanserv built in help doesn't tell you how to register. Lovely.
 [19:36:37] <pence> /msg chanserv help register
+[19:37:28] <user 1> TRACK 1 WORKING
 [19:37:45] <Apusp> Have I told people enought how I love finally having a computer that runs games better than 15fps?
 [19:38:17] <Apreche> says I have to login to register
 [19:38:31] <Neito> I love having a comptuer that has a hard drive, right now.
@@ -106,6 +109,7 @@
 [20:01:38] <ninjarabbi> yeah I just use mibbit and I have the same thing
 [20:01:40] <Apreche> I thought that is something the server does
 [20:02:05] <Neito> You can also do /who #geeknights.
+[20:02:14] <user x> TRACK 1 MESSAGE
 [20:02:17] <Neito> No, userlist is client-side.
 [20:02:20] <Apreche> yeah, but that shows up in the command window
 [20:02:50] <Apreche> ok, in IRSSI it is /names
@@ -143,6 +147,7 @@
 [20:12:43] <Apusp> I would think that the kind of people who still play 1.6 have their own little inside servers of elitism. But what do I know abdout 1.6.
 [20:13:18] <Apreche> purists
 [20:13:22] <ninjarabbi> thats what I was hoping but most of the ones I tried were pretty sheisty. At least last time I tried
+[20:19:52] <Whiteforce> TRACK 2 POSTED
 [20:26:10] <Apreche> I think a lot of the lasting popularity of 1.6 on pubs is crazy mods people play
 [20:26:15] <Apreche> and the crazy mods aren't on CS:S or CS:GO
 [20:26:24] <wip> That, or they are just insane
@@ -213,10 +218,14 @@
 [21:00:20] -!- Apreche has quit [Client exited]
 [21:00:37] <Apusp> probably and likely.
 [21:00:57] <Neito> Alright, I'm going to get some food. I just realized I haven't eaten all day.
+[21:02:17] <user x> TRACK 1 MESSAGE
+[21:26:53] <user 1> TRACK 1 COMPLETE
 [21:31:15] -!- ninjarabbi has quit [Quit: http://www.mibbit.com ajax IRC Client]
 [21:43:08] -!- wip has quit [Ping timeout]
 [21:45:27] -!- pence [pence!creimer@D4136568.672DEAC0.E178207D.IP] has parted #geeknights
+[21:48:07] <user x> TRACK 2 MESSAGE
 [22:14:09] -!- pence [pence!pence@hide-FE0B97D9.phlapa.fios.verizon.net] has joined #geeknights
+[22:14:32] <user 1> TRACK 2 WORKING
 [22:19:53] -!- Neito has quit [Ping timeout]
 [22:26:46] <pence> dammit, scott should come back into the irc channel he made to coordinate TL2 clicking time
 [22:29:00] -!- Bronzdragon [Bronzdragon!~Bronzdrag@BCF3CF0D:D43FA9F7:6A691D91:IP] has joined #geeknights
@@ -228,6 +237,7 @@
 [22:31:58] -!- Aria [Aria!aria@hide-700C3A1D.getinternet.no] has joined #geeknights
 [22:32:06] <Aria> The #geeknights?
 [22:32:24] <Aria> Wait, that was supposed to say "new", not "the"
+[22:32:45] <Whiteforce> TRACK 3 POSTED
 [22:37:56] <Apusp> Yes, to both.
 [22:38:18] <Bronzdragon> Which both?
 [22:38:29] <Aria> I like the concept of there being a new #geeknights!
@@ -282,4 +292,5 @@
 [22:52:21] <Neito> Not much.
 [22:52:32] <Bronzdragon> Ah, I see what you'er trying to do now.
 [22:52:45] <pence> so I can't just wrangle apsup and apreche for torchlight that way
+[22:56:18] <user 1> TRACK 3 ACK
 [23:04:36] -!- farragar has quit [Quit: ]  

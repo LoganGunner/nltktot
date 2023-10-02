@@ -23,7 +23,7 @@ Examples contains practice examples of various NLTK methods and practices that a
 
 # Goals/Implementation
 
-• Dashboard with GANT graph of "timeline" or lifespan of tasks.
+• Dashboard with GANTT graph of "timeline" or lifespan of tasks.
     - Starting with top level task lifespan, with smaller sublevels.
     - Include surrounding chats during the lifespan as separate data points to view just in case.
 

@@ -1,25 +1,14 @@
 Example track messages:
 
-[Timestamp] <Whiteforce> TRACK 1 POSTED
-
-[Timestamp] <user 1> TRACK 1 ACK
-
-[Timestamp] <user 1> TRACK 1 WORKING
-
-[Timestamp] <user x> TRACK 1 MESSAGE
-
-[Timestamp] <Whiteforce> TRACK 2 POSTED
-
-[Timestamp] <user 1> TRACK 2 ACK
-
-[Timestamp] <user x> TRACK 1 MESSAGE
-
-[Timestamp] <user 1> TRACK 1 COMPLETE
-
-[Timestamp] <user x> TRACK 2 MESSAGE
-
-[Timestamp] <user 1> TRACK 2 WORKING
-
-[Timestamp] <Whiteforce> TRACK 3 POSTED
-
-[Timestamp] <user 1> TRACK 3 ACK
+[19:01:12] <Whiteforce> TRACK 1 POSTED
+[19:23:45] <user 1> TRACK 1 ACK
+[19:37:28] <user 1> TRACK 1 WORKING
+[20:02:14] <user x> TRACK 1 MESSAGE
+[20:19:52] <Whiteforce> TRACK 2 POSTED
+[20:38:09] <user 1> TRACK 2 ACK
+[21:02:17] <user x> TRACK 1 MESSAGE
+[21:26:53] <user 1> TRACK 1 COMPLETE
+[21:48:07] <user x> TRACK 2 MESSAGE
+[22:14:32] <user 1> TRACK 2 WORKING
+[22:32:45] <Whiteforce> TRACK 3 POSTED
+[22:56:18] <user 1> TRACK 3 ACK
