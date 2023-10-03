@@ -29,10 +29,10 @@ for line in file.readlines():
 
         # Tag the start based on keyword
         if STARTINDICATOR in tokens:
-            tracks[trackName]['START'] = timestamp[1:-2]
+            tracks[trackName]['START'] = timestamp
     
         # Tag the end based on keyword
         if ENDINDICATOR in tokens:
-            tracks[trackName]['END'] = timestamp[1:-2]
+            tracks[trackName]['END'] = timestamp
 
 print(tracks)
