@@ -10,12 +10,23 @@ KEYWORDS = [ # List of key words or phrases to look for, currently being used to
     'track'
 ]
 
-STARTINDICATOR = 'posted' # String used to indicate the first time a track is posted
+STARTINDICATORS = [ # String used to indicate the first time a track is posted
+    'posted'
+    ] 
 
-ENDINDICATOR = 'complete' # String used to indicate the track has been resolved
+ENDINDICATORS = [ # String used to indicate the track has been resolved
+    'complete'
+    ]
 
 SUBTASKINDICATORS = [ #Strings used to indicate subtasks, likely regex for verbs after POS tagging
+    'ack',
+    'working'
+]
 
+INDICATORS = [
+    STARTINDICATORS,
+    ENDINDICATORS,
+    SUBTASKINDICATORS
 ]
 
 KEYALIASES = { # Dictionary of Key words with a list of multiple aliases

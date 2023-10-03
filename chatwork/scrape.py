@@ -1,38 +1,71 @@
 from nltk import *
 from constants import *
 
+def track_scrape(filename:str): 
+    '''open a chat of raw IRC logs, returns a nested dictionary containing the GANTT information of tracks in the chat'''
 
-file = open('SeededChat.txt', 'r')
+    file = open(filename, 'r')
 
-tracks = {}
+    tracks = {}
 
-for line in file.readlines():
-    line = line.strip("\n")
-    timestamp = re.search(TIMESTAMPEXPRESSION, line).group()
-    username = re.search(USERNAMEEXPRESSION, line)
-    if not username:
-        username = re.search(SYSTEMUSERNAME, line)
-    if username:
-        username = username.group()
-        message = re.split(username, line)[-1]
-    else: message = re.split(TIMESTAMPEXPRESSION, line)[-1]
+    for line in file.readlines():
 
-    tokens = [token.lower() for token in word_tokenize(message)]
+        line = line.strip("\n")
+        timestamp = re.search(TIMESTAMPEXPRESSION, line).group()
+        username = re.search(USERNAMEEXPRESSION, line)
 
-    # Tag as relevant based on keyword
-    if KEYWORDS[0].lower() in tokens:
-        trackName = (' '.join(message.split(' ')[1:3]))
-        newTrack = {'NAME': trackName }
+        if not username:
 
-        if trackName not in tracks.keys():
-            tracks[trackName] = newTrack
+            username = re.search(SYSTEMUSERNAME, line)
+        if username:
 
-        # Tag the start based on keyword
-        if STARTINDICATOR in tokens:
-            tracks[trackName]['START'] = timestamp
-    
-        # Tag the end based on keyword
-        if ENDINDICATOR in tokens:
-            tracks[trackName]['END'] = timestamp
+            username = username.group()
+            message = re.split(username, line)[-1]
+            
+        else: message = re.split(TIMESTAMPEXPRESSION, line)[-1]
 
-print(tracks)
+        tokens = [token.lower() for token in word_tokenize(message)]
+
+        # Tag as relevant based on keyword
+        for keyword in KEYWORDS:
+
+            if keyword.lower() in tokens:
+
+                trackName = (' '.join(message.split(' ')[1:3]))
+                newTrack = {'NAME': trackName }
+
+                if trackName not in tracks.keys():
+
+                    tracks[trackName] = newTrack
+
+                # Tag the actions based on keywords
+
+                for list in INDICATORS:
+
+                    for indicator in list:
+                        if list == STARTINDICATORS: # Check for starts
+
+                            key = 'START'
+
+                        elif list == ENDINDICATORS: # Check for Ends
+
+                            key = 'END'
+
+                        elif list == SUBTASKINDICATORS: # Check for miscellaneous actions
+
+                            key = indicator.upper()
+                            
+                        if indicator in tokens:
+
+                            if key not in tracks[trackName].keys():
+
+                                tracks[trackName][key] = timestamp
+                                
+                            else:
+
+                                tracks[trackName][key] = [tracks[trackName][key]]
+                                tracks[trackName][key].append(timestamp)
+                
+    return tracks
+
+print(track_scrape('SeededChat.txt'))

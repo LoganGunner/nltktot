@@ -12,6 +12,7 @@
 [19:27:57] <Apreche> I know it won't be popular, but it has been oft requested.
 [19:28:19] <Apreche> I'm bored, so let me prove it.
 [19:28:19] <wip> eh
+[19:28:25] <Whiteforce> TRACK 1 POSTED
 [19:28:33] -!- Apusp [Apusp!~Aleksi@hide-B4B1B39B.kortex.jyu.fi] has joined #geeknights
 [19:28:36] <Neito> I believe I said those exact words a couple years ago, the first time.
 [19:28:38] <Apusp> Yo
@@ -25,6 +26,7 @@
 [19:30:10] <Apreche> I am early on in second town.
 [19:30:13] <Apreche> low 20s
 [19:30:13] <Neito> Scott, /cs help
+[19:30:15] <user 1> TRACK 1 ACK again
 [19:30:16] <Apreche> haven't played in days
 [19:30:43] <Apreche> cs is not a command
 [19:30:47] -!- pence [pence!creimer@D4136568.672DEAC0.E178207D.IP] has joined #geeknights
