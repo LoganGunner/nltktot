@@ -16,60 +16,63 @@ def track_scrape(filename:str,
     for line in file.readlines():
 
         line = line.strip("\n")
-        timestamp = re.search(TIMESTAMPEXPRESSION, line).group()
-        username = re.search(USERNAMEEXPRESSION, line)
 
-        if not username:
+        if line:
 
-            username = re.search(SYSTEMUSERNAME, line)
-        if username:
-
-            username = username.group()
-            message = re.split(username, line)[-1].strip()
+            timestamp = re.search(TIMESTAMPEXPRESSION, line).group()
+            username = re.search(USERNAMEEXPRESSION, line)
             
-        else: message = re.split(TIMESTAMPEXPRESSION, line)[-1].strip()
+            if not username:
 
-        tokens = [token.lower() for token in word_tokenize(message)]
+                username = re.search(SYSTEMUSERNAME, line)
+            if username:
 
-        # Tag as relevant based on keyword
-        for keyword in KEYWORDS:
+                username = username.group()
+                message = re.split(username, line)[-1].strip()
+                
+            else: message = re.split(TIMESTAMPEXPRESSION, line)[-1].strip()
 
-            if keyword.lower() in tokens:
+            tokens = [token.lower() for token in word_tokenize(message)]
 
-                trackName = (' '.join(message.split(' ')[0:2]))
-                newTrack = {'NAME': trackName }
+            # Tag as relevant based on keyword
+            for keyword in KEYWORDS:
 
-                if trackName not in tracks.keys():
+                if keyword.lower() in tokens:
 
-                    tracks[trackName] = newTrack
+                    trackName = (' '.join(message.split(' ')[0:2]))
+                    newTrack = {'NAME': trackName }
 
-                # Tag the actions based on keywords
+                    if trackName not in tracks.keys():
 
-                for list in INDICATORS:
+                        tracks[trackName] = newTrack
 
-                    for indicator in list:
-                        if list == STARTINDICATORS: # Check for starts
+                    # Tag the actions based on keywords
 
-                            key = 'START'
+                    for list in INDICATORS:
 
-                        elif list == ENDINDICATORS: # Check for Ends
+                        for indicator in list:
+                            if list == STARTINDICATORS: # Check for starts
 
-                            key = 'END'
+                                key = 'START'
 
-                        elif list == SUBTASKINDICATORS: # Check for miscellaneous actions
+                            elif list == ENDINDICATORS: # Check for Ends
 
-                            key = indicator.upper()
-                            
-                        if indicator in tokens:
+                                key = 'END'
 
-                            if key not in tracks[trackName].keys():
+                            elif list == SUBTASKINDICATORS: # Check for miscellaneous actions
 
-                                tracks[trackName][key] = [timestamp]
+                                key = indicator.upper()
+                                
+                            if indicator in tokens:
 
-                            else:
+                                if key not in tracks[trackName].keys():
 
-                                tracks[trackName][key] = tracks[trackName][key]
-                                tracks[trackName][key].append(timestamp)
+                                    tracks[trackName][key] = [timestamp]
+
+                                else:
+
+                                    tracks[trackName][key] = tracks[trackName][key]
+                                    tracks[trackName][key].append(timestamp)
                 
     return tracks
 
