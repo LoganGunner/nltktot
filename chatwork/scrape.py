@@ -53,26 +53,26 @@ def track_scrape(filename:str,
                         for indicator in list:
                             if list == STARTINDICATORS: # Check for starts
 
-                                key = 'START'
+                                typeKey = 'START'
 
                             elif list == ENDINDICATORS: # Check for Ends
 
-                                key = 'END'
+                                typeKey = 'END'
 
                             elif list == SUBTASKINDICATORS: # Check for miscellaneous actions
 
-                                key = indicator.upper()
+                                typeKey = indicator.upper()
                                 
                             if indicator in tokens:
 
-                                if key not in tracks[trackName].keys():
+                                if typeKey not in tracks[trackName].keys():
 
-                                    tracks[trackName][key] = [timestamp]
+                                    tracks[trackName][typeKey] = [timestamp]
 
                                 else:
 
-                                    tracks[trackName][key] = tracks[trackName][key]
-                                    tracks[trackName][key].append(timestamp)
+                                    tracks[trackName][typeKey] = tracks[trackName][typeKey]
+                                    tracks[trackName][typeKey].append(timestamp)
                 
     return tracks
 
