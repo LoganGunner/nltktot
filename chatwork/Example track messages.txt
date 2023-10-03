@@ -1,5 +1,3 @@
-Example track messages:
-
 [19:01:12] <Whiteforce> TRACK 1 POSTED
 [19:23:45] <user 1> TRACK 1 ACK
 [19:37:28] <user 1> TRACK 1 WORKING
