@@ -19,7 +19,7 @@ def track_scrape(filename:str,
 
         if line:
 
-            timestamp = re.search(TIMESTAMPEXPRESSION, line).group()
+            timestamp = re.search(TIMESTAMPEXPRESSION, line).group()[1:-2]
             username = re.search(USERNAMEEXPRESSION, line)
             
             if not username:
