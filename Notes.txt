@@ -8,15 +8,7 @@ should call from database for keywords, etc.
 
 focus on tracking one level of task, then adding in layers afterwards
 
-seed some garbage data with intentional tracking tags to simulate
-
-database idea:
-tagging for start and end of conversation in database?
-tagging conversation ex: task 1, task 2
-tagging sub conversations ex: sub task 1, sub task 2
-
-use python to call chat logs from database, create conversation/topic objects, 
-insert those into a separate table in the database for graphing a GANTT chart
+database ideas:
 
 Name - Start - End (required for GANTT chart)
 
@@ -28,3 +20,30 @@ Ex: |---------------Conversation name------------|
 is this doable with grafana GANTT plugin?
 IS doable with Data Links Link data as time range based on currently selected 
 portion of GANTT graph, showing nearby timed messages in a separate field
+
+TACREP:
+
+    Name (Letter + number)// Serial (E-000xx) // Track Type (confidence) // Assumed Target ID (ship model, etc.) //
+
+    Track # (TNxxx) // Sender? // EL notation // Radio function type (2 uppercase letters) // Frequency (MHZ) //
+
+    Bearing/Range // Area of track (Elipse notated as "X" x "Y" / "Coordinate center point") //
+
+    Time of track (Zulu time) // Status (eg. ACTIVE IN AREA) // Classification //
+
+Track # used for name of GANTT process
+Time of Track used as initial timestamp to represent the beginning of the process lifespan.
+Last mention of track used as the end of the process lifespan.
+
+GANTT Data Sources: 
+   Name  |     Start     |     End
+  Track# | Time of Track | Last Mention
+
+Subprocesses:
+     Name    |       Start      |        End        |
+  Find TN#   | Time of Track    | TACREP Posted
+  Fix TN#    | TACREP Posted    | Track Correlated
+  Track TN#  | Track Correlated | Tagged Hostile
+  Target TN# | Tagged Hostile   | Link-16 Message
+  Engage TN# | Sent Link-16     | Return Link-16?
+  Assess TN# | Return Link-16?  | ???
