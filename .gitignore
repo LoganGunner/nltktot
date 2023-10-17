@@ -1,1 +1,5 @@
 __pycache__/
+postgres/
+nifi/
+nifi_registry/
+nifi/conf/nifi.properties
