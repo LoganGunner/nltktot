@@ -1,0 +1,49 @@
+CREATE TABLE IF NOT EXISTS public."user"
+(
+    id integer NOT NULL DEFAULT nextval('user_id_seq'::regclass),
+    username text COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT user_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."user"
+    OWNER to shoc;
+
+****************************************************************
+
+CREATE TABLE IF NOT EXISTS public.chat
+(
+    id integer NOT NULL DEFAULT nextval('chat_id_seq'::regclass),
+    chat_name text COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT chat_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.chat
+    OWNER to shoc;
+
+****************************************************************
+
+CREATE TABLE IF NOT EXISTS public.message
+(
+    id integer NOT NULL DEFAULT nextval('message_id_seq'::regclass),
+    chat_id integer NOT NULL,
+    user_id integer NOT NULL,
+    "timestamp" timestamp without time zone NOT NULL,
+    content text COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT message_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.message
+    OWNER to shoc;
+
+****************************************************************
+
+DELETE FORM message;
+DELETE FROM "user";
+DELETE FROM chat;
+
