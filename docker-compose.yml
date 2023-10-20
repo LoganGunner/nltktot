@@ -25,6 +25,7 @@ services:
       - 8080
     volumes:
       - ./nifi/conf/volumes:/opt/nifi/nifi-current/jdbc
+      - ./nifi/jdbc:/opt/nifi/nifi-current/jdbc
     networks:
       - business-intelligence-net
 ## --------------------------------------------- END NIFI SECTION --------------------------------------------

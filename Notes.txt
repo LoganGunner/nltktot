@@ -41,9 +41,15 @@ GANTT Data Sources:
 
 Subprocesses:
      Name    |       Start      |        End        |
-  Find TN#   | Time of Track    | TACREP Posted
-  Fix TN#    | TACREP Posted    | Track Correlated
-  Track TN#  | Track Correlated | Tagged Hostile
-  Target TN# | Tagged Hostile   | Link-16 Message
+  Find/Fix   | Time of Track    | TACREP Posted
+  Track TN#  | TACREP Posted    | Track Correlated
+  Target TN# | Track Correlated | Link-16 Message
   Engage TN# | Sent Link-16     | Return Link-16?
   Assess TN# | Return Link-16?  | ???
+
+
+  New Approach:
+    Iterate through DERG file, strip unique JTNS, record their initial positions
+    Iterate through IRC logs, correlate JTNS to TN or E lint serials via position and time
+    Record timestamps related to the JTN and other serial statements.
+    Save to database in GANTT format
