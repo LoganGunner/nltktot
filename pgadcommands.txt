@@ -1,0 +1,79 @@
+-- Table: public.chats
+
+-- DROP TABLE IF EXISTS public.chats;
+
+CREATE TABLE IF NOT EXISTS public.chats
+(
+    id serial NOT NULL,
+    "timestamp" timestamp without time zone,
+    username text COLLATE pg_catalog."default",
+    message text COLLATE pg_catalog."default",
+    CONSTRAINT chats_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.chats
+    OWNER to shoc;
+
+------------------------------
+
+-- Table: public.tracks
+
+-- DROP TABLE IF EXISTS public.tracks;
+
+CREATE TABLE IF NOT EXISTS public.tracks
+(
+    id serial NOT NULL,
+    intel_id text COLLATE pg_catalog."default",
+    joint_track_number text COLLATE pg_catalog."default",
+    initial_coordinate text COLLATE pg_catalog."default",
+    findfix timestamp without time zone,
+    track timestamp without time zone,
+    target timestamp without time zone,
+    engage timestamp without time zone,
+    CONSTRAINT tracks_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.tracks
+    OWNER to shoc; 
+
+----------
+
+CREATE OR REPLACE FUNCTION make_tracks()
+  RETURNS TRIGGER 
+  LANGUAGE PLPGSQL
+  AS
+$$
+BEGIN
+    IF NEW.message LIKE '%//%' THEN
+        IF NOT EXISTS (SELECT * FROM tracks WHERE LOWER(intel_id) = SPLIT_PART(LOWER(NEW.message),'//', 2)) THEN
+             INSERT INTO tracks(intel_id, initial_coordinate, findfix)
+             VALUES(SPLIT_PART(LOWER(NEW.message),'//', 2), SPLIT_PART(LOWER(NEW.message),'//', 11), NEW.timestamp);
+        END IF;
+    END IF;
+    
+    IF NEW.message LIKE 'JTN regex%' THEN
+        UPDATE tracks 
+        SET joint_track_number = SPLIT_PART(NEW.message, '__', 3),
+            track = NEW.timestamp
+        WHERE tracks.initial_coordinate = SPLIT_PART(LOWER(NEW.message), '__', 2) AND tracks.findfix = NEW.timestamp;
+    END IF;
+
+    RETURN NEW;
+END;
+$$
+
+-------
+
+-- Trigger: new_chats
+
+-- DROP TRIGGER IF EXISTS new_chats ON public.chats;
+
+CREATE OR REPLACE TRIGGER new_chats
+    BEFORE INSERT
+    ON public.chats
+    FOR EACH ROW
+    EXECUTE FUNCTION public.make_tracks();
